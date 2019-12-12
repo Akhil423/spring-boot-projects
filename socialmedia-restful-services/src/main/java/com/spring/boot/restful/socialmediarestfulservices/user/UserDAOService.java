@@ -27,4 +27,9 @@ public class UserDAOService {
 		return repository.findById(id);
 	}
 	
+	public void deleteone(int id){
+		
+	 repository.deleteById(id);;
+	}
+	
 }
