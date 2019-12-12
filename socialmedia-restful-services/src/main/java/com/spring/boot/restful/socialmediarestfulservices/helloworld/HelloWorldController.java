@@ -1,4 +1,4 @@
-package com.spring.boot.restful.socialmediarestfulservices;
+package com.spring.boot.restful.socialmediarestfulservices.helloworld;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package com.spring.boot.restful.socialmediarestfulservices;
+package com.spring.boot.restful.socialmediarestfulservices.helloworld;
 
 public class HelloBean {
 
