@@ -31,7 +31,12 @@ public class UserResource {
 	@GetMapping("/users/{id}")
 	public Optional<User> getUserById(@PathVariable int id) {
 		
-		return userService.findone(id);
+		Optional<User> user = userService.findone(id);
+		
+		if(user.isEmpty())
+			throw new UserNotFoundException("id - "+ id + " not found");
+		
+		return user;
 	}
 	
 	//createUser
